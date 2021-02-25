@@ -1,0 +1,11 @@
+Arhitecture types based on how they generate the response
+ - rule based model
+ - retrieval-based model
+ - generative - deep learning such as LSTM-based seq2seq
+
+ Closed domain
+ Open domain
+
+ Initiatives -> who takes the initiative(the bot or the user)
+
+ Microsoft Tay  
