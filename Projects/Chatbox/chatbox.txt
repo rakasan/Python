@@ -9,3 +9,12 @@ Arhitecture types based on how they generate the response
  Initiatives -> who takes the initiative(the bot or the user)
 
  Microsoft Tay  
+
+ NLP
+Look at the technologies around us:
+
+Spellcheck and autocorrect
+Auto-generated video captions
+Virtual assistants like Amazon’s Alexa
+Autocomplete
+Your news site’s suggested articles
