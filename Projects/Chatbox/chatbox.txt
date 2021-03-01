@@ -18,3 +18,49 @@ Auto-generated video captions
 Virtual assistants like Amazon’s Alexa
 Autocomplete
 Your news site’s suggested articles
+
+
+Regex and NLTK
+
+Noise removal
+Tokenization
+Normalization
+
+Stemming
+Lemmatization
+
+bag of words
+Language models are probabilistic computer models of language
+
+n-gram model
+
+ neural language models (NLMs)
+ opic modeling is an area of NLP dedicated to uncovering latent, or hidden, topics within a body of language. 
+
+ gensim and sklearn ->term frequency-inverse document frequency (tf-idf)
+
+ latent Dirichlet allocation (LDA).
+
+ word2vec - word embedding
+ Levenshtein distance phonetic similarity lexical similarity
+ Markov chains
+ Long Short Term Memory (LSTM)
+
+
+ Regex Expressions : 
+    - "words"
+    - word | another_word
+    - ["leters to contain"]word to contain (ex : [chr]at - will match cat, hat,eat)
+    - . ->wildcard/ pentru a compara cu "." se foloseste \. (ex: ....\. will match bear.)
+    - ranges [a-c] will include a,b,c [2-9] will include the values 2,3...,9 ex:[b-e][l-u][b-k] will match cub,dog,elk but it will not match ape,cow,ewe
+    - shorthand character classes : - "\w" -word character reprezents :[A-Za-z0-9_]
+                                    - "\d" - digit character
+                                    - "\s" - whitespace character ->[ \t\r\n\f\v], matching a single space, tab, carriage return, line break, form feed, or vertical tab
+                    -> \d\s\w\w\w\w\w\w -> will match the following 5 sloths, 8 llamas
+    - grouping ->(puppies|kitty cats)\sare\smy\sfavorite!
+    - quantifiers ->Fixed quantifiers \w{3} - 3 characters roa{3,7}r -ro + >=3* & <=7
+            ex : squea{3,5}k will match squeaaak,squeaaaak
+            \d\s(duck|ducks)\sfor\sadoption\?
+            Optional quantifiers ->\d\sducks?\sfor\sadoption\?
+    -  Kleene star(* | *+) hoo+t | ho*t will match hot,hoot,hooooot
+    [^cdh]are - > sa nu contina la inceput cdh
