@@ -64,3 +64,14 @@ n-gram model
             Optional quantifiers ->\d\sducks?\sfor\sadoption\?
     -  Kleene star(* | *+) hoo+t | ho*t will match hot,hoot,hooooot
     [^cdh]are - > sa nu contina la inceput cdh
+
+
+
+    Text preprocessing :
+
+    Noise removal : 
+
+    part of speach tagging
+    This technique of grouping words by their part-of-speech tag is called chunking.
+    Noun Pharse chunking
+    Verb pharse chunking
