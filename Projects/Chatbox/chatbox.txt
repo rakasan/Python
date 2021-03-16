@@ -75,3 +75,7 @@ n-gram model
     This technique of grouping words by their part-of-speech tag is called chunking.
     Noun Pharse chunking
     Verb pharse chunking
+
+
+    intents
+    utterance
